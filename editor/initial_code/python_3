@@ -1,1 +1,16 @@
-{{CODIGO INICIAL}}
+def calcular_premio(P, D, B):
+    # Seu código aqui
+    return None
+
+
+
+print("Example:")
+print(calcular_premio(100, 10, 4))
+
+# As funções assert são utilizadas para verificar se o resultado da função chamada é o esperado
+
+assert calcular_premio(100, 10, 4) == 'D'
+assert calcular_premio(30, 45, 10) == 'B'
+assert calcular_premio(30, 10, 5) == 'N'
+
+print("Seu código passou pelos testes, clique em Check para avançar!")
